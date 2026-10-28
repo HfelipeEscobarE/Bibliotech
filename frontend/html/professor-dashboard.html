@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bibliotech - Panel del Profesor</title>
+    <link rel="stylesheet" href="../css/w3.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../img/favicon.png">
+</head>
+<body>
+
+<div class="w3-bar w3-black w3-border-bottom w3-border-dark-grey">
+    <span class="w3-bar-item w3-text-yellow"><b>BIBLIOTECH</b></span>
+    <a href="/catalog" class="w3-bar-item w3-button">Catálogo</a>
+    <button class="w3-bar-item w3-button w3-right btn-logout">Salir</button>
+</div>
+
+<div class="w3-container w3-padding-32">
+    <div class="w3-row-padding">
+
+        <div class="w3-col l4 m5 s12">
+            <div class="w3-card-4 vault-card w3-padding w3-round">
+                <h3 class="w3-text-yellow">Subir Nuevo Documento</h3>
+                <form id="uploadForm">
+                    <label>Título</label>
+                    <input class="w3-input w3-border w3-round w3-transparent w3-text-white" type="text" id="title" maxlength="150" required>
+
+                    <label class="w3-margin-top w3-show">Autor (Opcional)</label>
+                    <input class="w3-input w3-border w3-round w3-transparent w3-text-white" type="text" id="author" maxlength="100">
+
+                    <label class="w3-margin-top w3-show">Categoría (Opcional)</label>
+                    <input class="w3-input w3-border w3-round w3-transparent w3-text-white" type="text" id="category" maxlength="50" placeholder="Ej: Matemática, Programación...">
+
+                    <label class="w3-margin-top w3-show">Archivo PDF (máx. 20 MB)</label>
+                    <input class="w3-input w3-border w3-round" type="file" id="pdfFile" accept="application/pdf,.pdf" required>
+
+                    <button type="submit" class="w3-button w3-yellow w3-block w3-round-large w3-margin-top">
+                        <b>CARGAR A LA BIBLIOTECA</b>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="w3-col l8 m7 s12">
+            <h3 class="w3-text-white">Mis Documentos</h3>
+            <div class="w3-responsive">
+                <table class="w3-table w3-striped w3-bordered vault-card">
+                    <thead>
+                        <tr class="w3-yellow">
+                            <th>Título</th>
+                            <th>Autor</th>
+                            <th>Categoría</th>
+                            <th>Fecha</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="documentsTableBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="../js/services/apiService.js"></script>
+<script src="../js/components/uiHandlers.js"></script>
+<script src="../js/utils/authHelper.js"></script>
+<script src="../js/components/documentComponents.js"></script>
+<script src="../js/components/pdfViewer.js"></script>
+<script src="../js/frontControllers/professorFrontController.js"></script>
+</body>
+</html>

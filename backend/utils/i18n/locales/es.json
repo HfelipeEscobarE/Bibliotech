@@ -1,0 +1,38 @@
+{
+  "filter.required": "Este campo es obligatorio.",
+  "filter.string": "Debe ser un texto.",
+  "filter.minLength": "Debe tener al menos {min} caracteres.",
+  "filter.maxLength": "No puede superar los {max} caracteres.",
+  "filter.email": "El correo electrónico no tiene un formato válido.",
+  "filter.username": "Solo se permiten letras, números, guion, guion bajo y punto.",
+  "filter.password": "La contraseña debe tener al menos {min} caracteres y no superar los {max}.",
+  "filter.oneOf": "Valor no permitido. Opciones válidas: {options}.",
+
+  "error.validation": "Los datos enviados no son válidos.",
+  "error.badRequest": "La petición no es válida.",
+  "error.notFound": "Recurso no encontrado.",
+  "error.internal": "Ocurrió un error interno. Intenta nuevamente más tarde.",
+  "error.duplicateEntry": "Ya existe un registro con esos datos.",
+  "error.dataTooLong": "Uno de los datos supera la longitud permitida.",
+  "error.databaseUnavailable": "El servicio de base de datos no está disponible. Intenta más tarde.",
+  "error.malformedJson": "El cuerpo de la petición no es un JSON válido.",
+
+  "error.fileRequired": "No se subió ningún archivo.",
+  "error.fileTooLarge": "El archivo supera el tamaño máximo permitido.",
+  "error.invalidFileType": "Tipo de archivo no permitido. Solo se aceptan archivos PDF.",
+  "error.invalidPdfContent": "El archivo no es un PDF válido.",
+  "error.upload": "No se pudo procesar el archivo subido.",
+  "error.fileNotAvailable": "El archivo físico no está disponible.",
+
+  "error.tokenMissing": "Formato de token incorrecto o inexistente.",
+  "error.tokenInvalid": "Token inválido o expirado.",
+  "error.roleForbidden": "Acceso denegado: tu rol no tiene permiso para esta acción.",
+  "error.adminRequired": "Acceso denegado: se requieren privilegios de administrador.",
+  "error.invalidCredentials": "Credenciales inválidas.",
+
+  "error.documentNotFound": "El documento no existe.",
+  "error.notOwner": "Solo puedes eliminar tus propios documentos.",
+  "error.userNotFound": "Usuario no encontrado.",
+  "error.cannotChangeOwnRole": "Operación denegada: no puedes cambiar tu propio rol.",
+  "error.cannotDeleteSelf": "Operación denegada: no puedes eliminar tu propia cuenta de administrador."
+}

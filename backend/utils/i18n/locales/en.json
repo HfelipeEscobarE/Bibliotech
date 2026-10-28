@@ -1,0 +1,38 @@
+{
+  "filter.required": "This field is required.",
+  "filter.string": "Must be a text.",
+  "filter.minLength": "Must be at least {min} characters long.",
+  "filter.maxLength": "Cannot exceed {max} characters.",
+  "filter.email": "The email address is not valid.",
+  "filter.username": "Only letters, numbers, hyphen, underscore and dot are allowed.",
+  "filter.password": "The password must be at least {min} characters and no more than {max}.",
+  "filter.oneOf": "Value not allowed. Valid options: {options}.",
+
+  "error.validation": "The submitted data is not valid.",
+  "error.badRequest": "The request is not valid.",
+  "error.notFound": "Resource not found.",
+  "error.internal": "An internal error occurred. Please try again later.",
+  "error.duplicateEntry": "A record with that data already exists.",
+  "error.dataTooLong": "One of the values exceeds the allowed length.",
+  "error.databaseUnavailable": "The database service is not available. Please try again later.",
+  "error.malformedJson": "The request body is not valid JSON.",
+
+  "error.fileRequired": "No file was uploaded.",
+  "error.fileTooLarge": "The file exceeds the maximum allowed size.",
+  "error.invalidFileType": "File type not allowed. Only PDF files are accepted.",
+  "error.invalidPdfContent": "The file is not a valid PDF.",
+  "error.upload": "The uploaded file could not be processed.",
+  "error.fileNotAvailable": "The physical file is not available.",
+
+  "error.tokenMissing": "Missing or malformed token.",
+  "error.tokenInvalid": "Invalid or expired token.",
+  "error.roleForbidden": "Access denied: your role is not allowed to perform this action.",
+  "error.adminRequired": "Access denied: administrator privileges are required.",
+  "error.invalidCredentials": "Invalid credentials.",
+
+  "error.documentNotFound": "The document does not exist.",
+  "error.notOwner": "You can only delete your own documents.",
+  "error.userNotFound": "User not found.",
+  "error.cannotChangeOwnRole": "Operation denied: you cannot change your own role.",
+  "error.cannotDeleteSelf": "Operation denied: you cannot delete your own administrator account."
+}
