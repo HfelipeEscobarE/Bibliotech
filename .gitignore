@@ -139,7 +139,7 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
-# Samples directory
+# Uploaded PDF documents directory
 backend/uploads/
 
 # Code Editors project file:

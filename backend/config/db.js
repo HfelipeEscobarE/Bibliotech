@@ -1,5 +1,5 @@
 /**
-*    Project     : Sample Vault
+*    Project     : Sample Vault (adaptado a gestión documental PDF)
 *    Author      : Tecnologías Informáticas B - Facultad de Ingeniería - UNMdP
 *    License     : http://www.gnu.org/licenses/gpl.txt  GNU GPL 3.0
 *    Date        : Marzo 2026
@@ -29,9 +29,9 @@ const pool = mysql.createPool({
  */
 // const pool = mysql.createPool({
 //     host: 'localhost',
-//     user: 'samplevault',
-//     password: 'samplevault',
-//     database: 'samplevault',
+//     user: 'bibliotech',
+//     password: 'bibliotech',
+//     database: 'bibliotech',
 //     waitForConnections: true,
 //     connectionLimit: 10,
 //     queueLimit: 0

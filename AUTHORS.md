@@ -13,6 +13,12 @@ This project is an educational prototype of a CRUD (Create Read Update and Delet
 * Fernando Genin - full stack - Mar del Plata (Argentina)
 * Gabriel "Nico" Ferreira - full stack - Santa Clara del Mar (Argentina)  
 
+## Adaptation to Bibliotech (document library):
+
+This version adapts the original Sample Vault (sound library) into Bibliotech, a PDF document library.
+
+* [Tu nombre] - adaptation, full stack
+
 ## All other contributors and their affiliations:
 
 * Tecnologías B and Prácticas Profesionalizantes II Students - Mar del Plata (Argentina)

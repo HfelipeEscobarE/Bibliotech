@@ -1,5 +1,5 @@
 /**
-*    Project     : Sample Vault
+*    Project     : Sample Vault (adaptado a gestión documental PDF)
 *    Author      : Tecnologías Informáticas B - Facultad de Ingeniería - UNMdP
 *    License     : http://www.gnu.org/licenses/gpl.txt  GNU GPL 3.0
 *    Date        : Marzo 2026
@@ -30,7 +30,7 @@ const fileHelper =
 {
     /**
      * Elimina un archivo del disco de forma segura
-     * @param {string} relativePath - Ruta guardada en la DB (ej: /uploads/audio.mp3)
+     * @param {string} relativePath - Ruta guardada en la DB (ej: /uploads/1700000000000-documento.pdf)
      */
     deleteFile(relativePath) 
     {

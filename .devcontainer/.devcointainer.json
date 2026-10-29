@@ -1,5 +1,5 @@
 {
-    "name": "Sample Vault Dev Environment",
+    "name": "Bibliotech Dev Environment",
     "image": "mcr.microsoft.com/devcontainers/javascript-node:22-bookworm",
     
     "features": {
